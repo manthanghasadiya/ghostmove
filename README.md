@@ -150,7 +150,7 @@ Uses `libX11.so` via ctypes:
 ### macOS Implementation  
 Uses Quartz framework:
 - `CGEventCreateMouseEvent()` - Create mouse event
-- `CGEventPost()` - Post event to system
+- `CGEventPost()` - Post event to the system
 - `CGEventGetLocation()` - Get cursor position
 
 ---
@@ -194,15 +194,7 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 **Manthan Ghasadiya**
 - GitHub: [@manthanghasadiya](https://github.com/manthanghasadiya)
-- LinkedIn: [Manthan Ghasadiya](https://linkedin.com/in/manthanghasadiya)
-- Security Analyst @ Jacobian Engineering
-
----
-
-## 🔗 Related Work
-
-- [eBPF-based Ransomware Detection](link-when-you-publish-it)
-- [100 Red Team Projects](https://github.com/kurogai/100-redteam-projects)
+- LinkedIn: [Manthan Ghasadiya](https://www.linkedin.com/in/man-ghasadiya)
 
 ---
 
