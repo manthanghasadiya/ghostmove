@@ -20,19 +20,19 @@ Ghostmove provides programmatic mouse control across Windows, Linux, and macOS *
 Traditional automation libraries (PyAutoGUI, pyautogui, etc.) require pip installation and create large dependency trees - easily detected by EDR solutions. This project explores minimal-footprint cursor control using only Python standard library + native OS APIs.
 
 **Use Cases:**
-- 🔴 Red Team: Post-exploitation persistence testing
-- 🔵 Blue Team: Understanding evasion techniques for better detection
-- 🔬 Research: EDR bypass methodology
-- 📚 Education: Learning OS API interaction
+- Red Team: Post-exploitation persistence testing
+- Blue Team: Understanding evasion techniques for better detection
+- Research: EDR bypass methodology
+- Education: Learning OS API interaction
 
 ---
 
 ## ⚡ Features
 
 ### Multi-Platform Support
-- ✅ **Windows**: Direct `user32.dll` bindings (SetCursorPos, GetCursorPos)
-- ✅ **Linux X11**: `libX11.so` integration (XWarpPointer, XQueryPointer)
-- ✅ **macOS**: Quartz/CoreGraphics (CGEventCreateMouseEvent)
+- **Windows**: Direct `user32.dll` bindings (SetCursorPos, GetCursorPos)
+- **Linux X11**: `libX11.so` integration (XWarpPointer, XQueryPointer)
+- **macOS**: Quartz/CoreGraphics (CGEventCreateMouseEvent)
 
 ### Movement Patterns
 - `jitter` - Random micro-movements (simulates hardware glitch)
